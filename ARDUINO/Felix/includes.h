@@ -78,7 +78,7 @@ struct leg {
   boolean forward;
 };
 
-char* LegNames[]={"BACK LEFT", "FRONT LEFT", "FRONT RIGHT","BACK RIGHT"};
+const char* LegNames[]={"BACK LEFT", "FRONT LEFT", "FRONT RIGHT","BACK RIGHT"};
 
 // *************** ARRAY OF SERVO IDS - CLOCKWISE DIRECTION STARTING WITH BACK LEFT
 int servos[4][2] =
